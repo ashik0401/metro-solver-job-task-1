@@ -1,0 +1,109 @@
+{
+  "content_categories": [
+    {
+      "id": "success-stories",
+      "name": "Success Stories",
+      "type": "stories",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Metro System Transformation in Tokyo",
+          "description": "How our solutions revolutionized Tokyo's metro efficiency",
+          "total_views": "1.2M",
+          "lower_cpa": "15%",
+          "total_sales": "$2.5M"
+        },
+        {
+          "id": 2,
+          "title": "London Underground Modernization",
+          "description": "Digital transformation success story",
+          "total_views": "950k",
+          "lower_cpa": "12%",
+          "total_sales": "$1.8M"
+        },
+        {
+          "id": 3,
+          "title": "New York Subway Efficiency Upgrade",
+          "description": "Optimizing passenger flow and reducing delays",
+          "total_views": "1.5M",
+          "lower_cpa": "18%",
+          "total_sales": "$3.2M"
+        }
+      ]
+    },
+    {
+      "id": "case-studies",
+      "name": "Case Studies",
+      "type": "studies",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Metro Network Optimization Study",
+          "date": "Mar 14, 2025",
+          "views": "25k",
+          "description": "Comprehensive analysis of metro system performance metrics",
+          "tags": ["optimization", "analysis", "performance"]
+        },
+        {
+          "id": 2,
+          "title": "Urban Mobility Solutions Research",
+          "date": "Feb 28, 2025",
+          "views": "18k",
+          "description": "Case study on implementing smart mobility solutions",
+          "tags": ["mobility", "urban", "smart-cities"]
+        },
+        {
+          "id": 3,
+          "title": "Passenger Flow Management",
+          "date": "Jan 15, 2025",
+          "views": "32k",
+          "description": "Improving passenger experience through data analytics",
+          "tags": ["analytics", "passenger-flow", "experience"]
+        }
+      ]
+    },
+    {
+      "id": "blog-news",
+      "name": "Blog and News",
+      "type": "blog",
+      "cards": [
+        {
+          "id": 1,
+          "title": "The Future of Metro Systems in Smart Cities",
+          "category": "Industry Insights",
+          "read_time": "5 min read",
+          "excerpt": "Exploring how metro systems are evolving with smart city technologies...",
+          "author": "Tech Team",
+          "date": "Mar 14, 2025",
+          "views": "25k"
+        },
+        {
+          "id": 2,
+          "title": "Innovations in Metro Ticketing Systems",
+          "category": "Technology",
+          "read_time": "4 min read",
+          "excerpt": "Revolutionizing the way passengers pay for metro services...",
+          "author": "Innovation Dept",
+          "date": "Mar 10, 2025",
+          "views": "15k"
+        },
+        {
+          "id": 3,
+          "title": "Sustainable Metro Solutions Conference 2025",
+          "category": "Events",
+          "read_time": "3 min read",
+          "excerpt": "Highlights from the annual sustainable transportation summit...",
+          "author": "Events Team",
+          "date": "Mar 5, 2025",
+          "views": "20k"
+        }
+      ]
+    }
+  ],
+  "ui_config": {
+    "active_category": "success-stories",
+    "show_date": true,
+    "show_views": true,
+    "layout": "grid"
+  }
+}
