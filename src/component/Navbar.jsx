@@ -39,7 +39,7 @@ const Navbar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img src='../../public/Materiel/Frame.gif' alt="" /></a>
+                    <img src='../../public/Materiel/Frame.gif' alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex bg-gray-500/10 rounded-full ">
                     <ul className="menu menu-horizontal px-1">
