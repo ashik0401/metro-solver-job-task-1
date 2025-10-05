@@ -1,12 +1,12 @@
 import React from 'react';
 import { BsCartCheck } from 'react-icons/bs';
 import { FaPersonBreastfeeding } from 'react-icons/fa6';
-
+import logo from '../assets/Frame.gif'
 const Navbar = () => {
     return (
         <div>
             <nav className='bg-gray-500/10 hidden md:block'>
-                <ul className='flex justify-between w-9/12 mx-auto py-5'>
+                <ul className='flex justify-between w-9/12 mx-auto py-5 '>
                     <li>Budget friendly</li>
                     <li> No. 1 in Europe</li>
                     <li>On your first order</li>
@@ -19,7 +19,7 @@ const Navbar = () => {
 
                 </ul>
             </nav>
-            <div className="navbar md:w-9/12 mx-auto  shadow-sm py-5">
+            <div className="navbar md:w-9/12 mx-auto  shadow-sm py-5 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@ const Navbar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <img src='../../public/Materiel/Frame.gif' alt="" />
+                    <a className=""><img src={logo} alt="" className='w-15 '/></a>
                 </div>
                 <div className="navbar-center hidden lg:flex bg-gray-500/10 rounded-full ">
                     <ul className="menu menu-horizontal px-1">
@@ -58,7 +58,7 @@ const Navbar = () => {
                         <li><a>Contact us </a></li>
                     </ul>
                 </div>
-                <div className="navbar-end flex gap-5">
+                <div className="navbar-end flex gap-3">
                     <span><BsCartCheck size={25} /></span>
                     <span><FaPersonBreastfeeding size={25} />
                     </span>
